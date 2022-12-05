@@ -44,7 +44,7 @@ create another cylinder with same dimensions and material as dipole1. The Zmin a
 
 For port ->
 For the AC source, select Discrete Port from 'Ports' in navigation tree
-Characteristic impedance is set to be $50\Omega$.
+Characteristic impedance is set to be 50 ohms.
 The source is placed between `0,0,-z_min` and `0,0,zmin`. Hence the coordinates (0,0,-5) & (0,0,5)
 
 Frequency setting->
@@ -64,23 +64,23 @@ Triangle Current Density -> ? (check its derivation from books)
 
 For half wave dipole of length $\frac{\lambda}{2}$ the current distribution is sinusoidal ie either $sin$ or $cos$
 
-Correct answer is 73$\Omega$ 
+Correct answer is 73 ohms
 
 $dl \rightarrow R_r = 80\pi^2(\frac{dl}{\lambda})^2$
 
 find $E_{\theta}$ and $H_\phi$
 
 The port should see the value of 73 ohms
-So update the port impedance to $73\Omega$ by right clicking the port1 in navigation tree and selecting properties.
+So update the port impedance to 73 ohms by right clicking the port1 in navigation tree and selecting properties.
 
 ![](https://i.imgur.com/fu3uYC5.png)
 
 The first minimum is at 0.8575 MHz
 
-For 50$\Omega$:
+For 50 ohms:
 ![](https://i.imgur.com/4YIzNcA.png)
 
-The impedance value of half wave dipole is 73$\Omega$
+The impedance value of half wave dipole is 73 ohms
 
 The second resonant frequency
 
